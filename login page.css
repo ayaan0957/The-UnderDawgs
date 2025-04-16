@@ -1,0 +1,75 @@
+input[type="submit"] {
+    display: block; /* add this line to make the button a block element */
+    margin: 20px auto;
+    margin-bottom:auto; /* add this line to center the button horizontally */
+  }
+  input[type="submit"] {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    margin: 20px auto;
+    margin-bottom:auto;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    padding: 1px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transform: translateX(0%);
+    position: absolute;
+    bottom: -400px;
+    left: 50%;
+    transform: translateX(50%);
+    
+    
+}
+  
+input[type="submit"]:hover {
+    background-color: #ff89a9; /* change the background color on hover */
+  }
+label {
+    display: inline-block;
+    width: 120px; /* adjust the width to your liking */
+    text-align: right;
+    margin-right: 10px;
+  }
+form{
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-size: 20px;
+    background-color: transparent;
+    color: blueviolet;
+}
+
+input{
+    align-content: last baseline;
+    color: transparent;
+}
+
+label{
+    color: rgb(236, 1, 1);
+    font-family:cursive;
+}
+label {
+    display: inline-block;
+    width: 120px; /* adjust the width to your liking */
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+.image-container img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;    
+}
+
+
